@@ -1,8 +1,8 @@
 <?php
-$siteurl = "http://localhost/engraving/";
-// $fullpageurl = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-// $pageurl   = "https://$_SERVER[HTTP_HOST]";
-// $ip_address = (isset($_SERVER["HTTP_CF_CONNECTING_IP"])?$_SERVER["HTTP_CF_CONNECTING_IP"]:$_SERVER['REMOTE_ADDR']);
+$siteurl = "https://engraving.herokuapp.com/";
+$fullpageurl = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+$pageurl   = "https://$_SERVER[HTTP_HOST]";
+$ip_address = (isset($_SERVER["HTTP_CF_CONNECTING_IP"])?$_SERVER["HTTP_CF_CONNECTING_IP"]:$_SERVER['REMOTE_ADDR']);
 ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
